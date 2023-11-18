@@ -18,9 +18,11 @@ ol {
 
 img {
   display: block;
-  
 }
 
+.team-image {
+  border-radius: 0px 0px 4px 4px;
+}
 .list {
   list-style-type: none;
 }
@@ -178,7 +180,8 @@ cursor: pointer;
   font-size: 20px;
   line-height: 1.2;
   color: #2e2f42;
-  letter-spacing: 0.02em 
+  letter-spacing: 0.02em;
+  margin-bottom: 8px 
   }
 .team-person {
   font-size: 20px;
@@ -187,8 +190,10 @@ cursor: pointer;
   font-weight: 500;
   line-height: 1.2;
   letter-spacing: 0.02em;
-  padding-top: 32px;
-  padding-bottom: 8px;
+ /*  padding-top: 32px;
+  padding-bottom: 8px; */
+  text-align: center;
+  margin-bottom: 8px;
 }
 .name-features {
   font-size: 56px;
@@ -205,15 +210,16 @@ cursor: pointer;
   letter-spacing: 0.02em;
   text-transform: capitalize;
   color: #2e2f42;
-  padding-top: 120px;
-  padding-bottom: 72px;
+ /*  padding-top: 120px;
+  padding-bottom: 72px; */
+  margin-bottom: 72px
 
 }
 .team-item {
   line-height: 1.11;
   text-align: center;
   letter-spacing: 0.02em;
-  column-gap: 24px;
+  gap: 24px;
  
   display: flex;
   flex-wrap: wrap;
@@ -222,7 +228,7 @@ cursor: pointer;
 .team-title{
   line-height: 1.5;
   letter-spacing: 0.02em;
-  padding-bottom: 32px;
+  /* padding-bottom: 32px; */
 }
 .main-title .portfolio {
   font-size: 36px;
@@ -269,7 +275,9 @@ background: #FFF;
  margin-bottom: 120px;
      
 }
-
+.surname-position{
+  padding: 32px 0 
+}
 
 
 
@@ -330,7 +338,7 @@ background: #FFF;
     .menu-features{
     display: flex;
     flex-wrap: wrap;
-     column-gap: 24px; 
+     gap: 24px; 
     }
     .strategy-item {
       width: calc((100% - 72px) / 4);
@@ -339,6 +347,7 @@ background: #FFF;
   
      .team {
       background-color: #F4F4FD;
+      padding: 120px 0
      }
     
      .portfolio{
