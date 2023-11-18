@@ -19,8 +19,7 @@ ol {
 img {
   display: block;
 }
-
-.team-image {
+.team-image{
   border-radius: 0px 0px 4px 4px;
 }
 .list {
@@ -160,8 +159,7 @@ cursor: pointer;
   line-height: 24px;
   color: #434455;
   letter-spacing: 0.02em;
-  padding-left: 16px;
-  padding-bottom: 32px;
+
 }
 .footer-text {
   font-family: Roboto;
@@ -244,8 +242,7 @@ cursor: pointer;
   color: #2e2f42;
   line-height: 1.2;
   letter-spacing: 0.02em;
-  padding-top: 32px;
-  padding-left: 16px;
+  
 
 }
 .title-portfolio {
@@ -253,7 +250,7 @@ cursor: pointer;
   text-align: center;
   letter-spacing: 0.02em;
   text-align: center;
-    padding-bottom: 72px;
+  margin-bottom: 72px;  
   
  
 }
@@ -265,20 +262,26 @@ cursor: pointer;
   
 }
 .portfolio-card{
-  width: calc((100% - 72px) / 3);
-  border: 1px solid  #E7E9FC;
-background: #FFF;
+  width: calc((100% - 48px) / 3); 
+ background: #FFF;
 }
 .team-card {
   background-color: #FFFFFF;
   width: calc((100% - 72px) / 4);
  margin-bottom: 120px;
+ border-radius: 0px 0px 4px 4px; 
      
 }
 .surname-position{
   padding: 32px 0 
 }
 
+.app-title{
+  padding: 32px 16px;
+  border: 1px solid #e7e9fc; 
+  border-top: none;
+  margin-bottom: 8px; 
+}
 
 
  .container { 
