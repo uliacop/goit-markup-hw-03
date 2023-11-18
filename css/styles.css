@@ -45,17 +45,18 @@ body {
   color: #4d5ae5;
   padding-top: 25.5px;
   padding-bottom: 25.5px;
+  margin-right: 76px
 }
 .logo-header {
   color: #2e2f42;
-  padding-right: 76px;
+
 }
 .menu-link {
   font-weight: 500;
   line-height: 1.5;
   letter-spacing: 0.02em;
   color: #2e2f42;
-  column-gap: 40px;
+  gap: 40px;
  
     }
 .link {
@@ -267,8 +268,9 @@ background: #FFF;
   max-width: 1158px;
   margin-left: auto;
   margin-right: auto;
-  padding-left: 16px;
-  padding-right: 16px;
+  padding-left: 15px;
+  padding-right: 15px;
+  
   }
   .container-title{
     max-width: 1440px;
@@ -298,20 +300,24 @@ background: #FFF;
   }
   .header-navigation{
     display: flex;
+    align-items: center;
       }
     .menu{
       display: flex;
-      padding-top: 24px;
-      padding-bottom: 24px;
+      /* padding-top: 24px;
+      padding-bottom: 24px; */
       column-gap: 40px;
+      
      
     }
-   
+   .menu-item{
+     padding: 24px 0
+   }
     .menu-contacts{
       display: flex;
       padding-top: 24px;
       padding-bottom: 24px;
-      column-gap: 40px;
+      gap: 40px;
     }
     .menu-features{
     display: flex;
@@ -322,9 +328,7 @@ background: #FFF;
       width: calc((100% - 72px) / 4);
   
     }
-
-    
-
+  
      .team {
       background-color: #F4F4FD;
      }
@@ -349,4 +353,8 @@ background: #FFF;
      .footer-text {
       max-width: 264px;
       padding-top: 17.5px;
+     }
+
+     .header {
+      border-bottom: 1px solid #e7e9fc 
      }
