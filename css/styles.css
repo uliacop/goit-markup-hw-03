@@ -89,6 +89,7 @@ body {
   margin: auto;
   /* padding-top: 260px;
   padding-bottom: 48px; */
+  padding-bottom: 48px;
   }
 
 .footer-text,
@@ -120,10 +121,10 @@ footer {
   letter-spacing: 0.04em;
   text-align: center;
   display: block; 
-padding: 16px 32px;
+/* padding: 16px 32px; */
 align-items: flex-start;
 gap: 10px;
-margin-bottom: 188px;
+/* margin-bottom: 188px; */
 margin-right: 635px;
 margin-left: 635px;
 min-width: 169px;
@@ -364,4 +365,8 @@ background: #FFF;
 
      .header {
       border-bottom: 1px solid #e7e9fc 
+     }
+     
+     .features {
+      padding: 120px 0
      }
