@@ -306,10 +306,9 @@ background: #FFF;
       display: flex;
       /* padding-top: 24px;
       padding-bottom: 24px; */
-      column-gap: 40px;
-      
-     
-    }
+      gap: 40px;
+      padding: 24px 0     
+}
    .menu-item{
      padding: 24px 0
    }
