@@ -57,6 +57,7 @@ body {
   letter-spacing: 0.02em;
   color: #2e2f42;
   gap: 40px;
+  padding: 24px 0 
  
     }
 .link {
@@ -307,10 +308,10 @@ background: #FFF;
       /* padding-top: 24px;
       padding-bottom: 24px; */
       gap: 40px;
-      padding: 24px 0     
+       
 }
    .menu-item{
-     padding: 24px 0
+   /*   padding: 24px 0 */
    }
     .menu-contacts{
       display: flex;
